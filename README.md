@@ -1,16 +1,57 @@
-# React + Vite
+React Kişisel Portfolyo Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern web geliştirme teknolojileri kullanılarak hazırlanmış dinamik ve duyarlı (responsive) bir kişisel portfolyo sayfasıdır.
 
-Currently, two official plugins are available:
+İstenen tüm proje gereksinimleri (Bileşenlere ayırma, map() ile dinamik veri basma, CSS Grid/Flexbox kullanımı) ve opsiyonel olan Dark Mode özelliği eksiksiz olarak projeye entegre edilmiştir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Önizleme
 
-## React Compiler
+Sitenin çalışan canlı halini Vercel üzerinden inceleyebilirsiniz:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://portfolyo-react-rho.vercel.app/
 
-## Expanding the ESLint configuration
+Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React (Bileşen tabanlı mimari)
+
+Vite (Hızlı derleme ve geliştirme ortamı)
+
+Tailwind CSS (Modern ve hızlı stil işlemleri)
+
+Lucide React (Vektörel ikonlar)
+
+Öne Çıkan Özellikler
+
+Karanlık/Aydınlık Tema (Dark Mode): useState hook'u kullanılarak geliştirilmiştir.
+
+Dinamik Veri Yapısı: Projeler ve yetenekler ayrı bir data.js dosyasından çekilerek .map() metodu ile ekrana basılmaktadır.
+
+Etkileşimli UI: Hover efektleri ve CSS animasyonları ile desteklenmiş "Canlı Kod Editörü" tasarımı.
+
+💻 Projeyi Yerelde (Local) Çalıştırma Adımları
+
+Projeyi kendi bilgisayarınızda test etmek için aşağıdaki adımları sırasıyla terminalinizde çalıştırın:
+
+Projeyi bilgisayarınıza klonlayın:
+
+git clone [https://github.com/bartuuyigit/portfolyo-react.git](https://github.com/bartuuyigit/portfolyo-react.git)
+
+
+Proje dizinine girin:
+
+cd portfolyo-react
+
+
+Gerekli kütüphane ve paketleri yükleyin:
+
+npm install
+
+
+Geliştirici sunucusunu başlatın:
+
+npm run dev
+
+
+Açılan http://localhost:5173/ adresi üzerinden projeyi tarayıcınızda görüntüleyebilirsiniz.
+
+Geliştirici: Bartu Yiğit - 2026
