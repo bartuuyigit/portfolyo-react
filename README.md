@@ -28,7 +28,7 @@ Dinamik Veri Yapısı: Projeler ve yetenekler ayrı bir data.js dosyasından çe
 
 Etkileşimli UI: Hover efektleri ve CSS animasyonları ile desteklenmiş "Canlı Kod Editörü" tasarımı.
 
-💻 Projeyi Yerelde (Local) Çalıştırma Adımları
+Projeyi Yerelde (Local) Çalıştırma Adımları
 
 Projeyi kendi bilgisayarınızda test etmek için aşağıdaki adımları sırasıyla terminalinizde çalıştırın:
 
